@@ -57,12 +57,12 @@ export function App() {
       <input
         type="text"
         placeholder="busque suas notas"
-        className="w-full bg-transparent text=3xl font-semibold tracking-tight outline-none placefonder:text-slate-500"
+        className="w-full bg-transparent text=3xl font-semibold tracking-tight outline-none placefonder:text-zinc-500"
         onChange={handleSearch}
         />
     </form>
 
-    <div className='h-px bg-slate-700'></div>
+    <div className='h-px bg-zinc-700'></div>
 
     <div className='grid grid-cols-3 gap-6 auto-rows-[250px]'>
 

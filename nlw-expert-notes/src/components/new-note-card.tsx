@@ -38,33 +38,33 @@ export function NewNoteCard({onNoteCreated}: NewNoteCardProps) {
 
     return (
       <Dialog.Root>
-        <Dialog.Trigger className='rounded-md flex flex-col bg-slate-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-slate-600 focus:ring-2 focus:ring-violet-400'>
-          <span className='text-sm font-medium text-slate-200'>adicionar nota</span>
-          <p className='text-sm leading-6 text-slate-400'>grave uma nota em áudio que será convertida para texto automaticamente</p>
+        <Dialog.Trigger className='rounded-md flex flex-col bg-zinc-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-zinc-600 focus:ring-2 focus:ring-violet-400'>
+          <span className='text-sm font-medium text-zinc-200'>adicionar nota</span>
+          <p className='text-sm leading-6 text-zinc-400'>grave uma nota em áudio que será convertida para texto automaticamente</p>
         </Dialog.Trigger>
 
         <Dialog.Portal>
         <Dialog.Overlay className="inset-0 fixed bg-black/50"/>
-          <Dialog.Content className='fixed overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[640px] w-full h-[60vh] bg-slate-700 rounded-md flex flex-col outline-none'>
-              <Dialog.Close className='absolute right-0 top-0 p-1.5 text-slate-400 hover:text-slate-100'>
+          <Dialog.Content className='fixed overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[640px] w-full h-[60vh] bg-zinc-700 rounded-md flex flex-col outline-none'>
+              <Dialog.Close className='absolute right-0 top-0 p-1.5 text-zinc-400 hover:text-zinc-100'>
                 <X className='size-5'/>
               </Dialog.Close>
 
               <form onSubmit={handleSaveNote} className='flex-1 flex flex-col'>
 
                 <div className='flex flex-1 flex-col gap-3 p-5'>
-                  <span className='text-sm font-medium text-slate-300'>
+                  <span className='text-sm font-medium text-zinc-300'>
                     adicionar nota
                   </span>
 
                   {shouldShowOnBoarding ? (
-                    <p className='text-sm leading-6 text-slate-400'>
+                    <p className='text-sm leading-6 text-zinc-400'>
                     comece <button className='text-violet-400 hover:underline'>gravando a nota em áudio</button> ou, se preferir, em <button onClick={handleStartEditor} className='text-violet-400 hover:underline'>texto</button>
                   </p>
                   ):(
                     <textarea
                       autoFocus 
-                      className='text-sm leading-6 text-slate-400 bg-transparent resize-none flex-1 outline-none'
+                      className='text-sm leading-6 text-zinc-400 bg-transparent resize-none flex-1 outline-none'
                       onChange = {handleContentChanged}
                       value = {content}/>
                   )}
