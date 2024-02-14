@@ -4,5 +4,8 @@
     "date-fns": "^3.3.1",
     "lucide-react": "^0.323.0",
     "sonner": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/dom-speech-recognition": "^0.0.4"
   }
 }
