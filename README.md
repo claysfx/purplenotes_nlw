@@ -1,6 +1,6 @@
 # NLW Expert - React
 
-aplicação desenvolvida durante o Next Level Week da Rocketseat, utilizando React, Typescript, Tailwind e a API SpeechRecognition.
+aplicação desenvolvida durante o Next Level Week da [Rocketseat](https://github.com/rocketseat-education), utilizando React, Typescript, Tailwind e a API SpeechRecognition.
 
 - - -
 
