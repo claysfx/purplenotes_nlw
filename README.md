@@ -4,11 +4,4 @@ aplicação desenvolvida durante o Next Level Week da [Rocketseat](https://githu
 
 - - -
 
-## execução
-
-após clonar o repositório, acesse a pasta do projeto e execute:
-```
-npm install
-npm run dev
-```
-logo após, acesse: http://localhost:5173
+acesse e teste a aplicação aqui: [purplenotes.vercel.app](https://purplenotes.vercel.app)
